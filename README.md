@@ -16,7 +16,7 @@ Go 1.15
 
 ## Features
 
-Registers a Msgpack default marshaller as the default marshaller for edat.
+Registers a Msgpack marshaller as the default marshaller for edat.
 
 ## TODOs
 
