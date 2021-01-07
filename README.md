@@ -6,7 +6,7 @@
 
 ## Usage Example
 
-    import _ "github.com/stackus/edat-mgpack"
+    import _ "github.com/stackus/edat-msgpack"
 
 Import the marshaller before registering any types.
 
