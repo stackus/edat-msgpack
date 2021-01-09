@@ -7,12 +7,12 @@ import (
 	"github.com/shamaton/msgpack"
 
 	"github.com/stackus/edat/core"
-	"github.com/stackus/edat/core/register_types"
+	"github.com/stackus/edat/core/registertypes"
 )
 
 func init() {
 	core.RegisterDefaultMarshaller(newMsgPackMarshaller())
-	register_types.RegisterTypes()
+	registertypes.RegisterTypes()
 }
 
 type msgPackMarshaler struct {
