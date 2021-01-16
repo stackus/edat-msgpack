@@ -7,7 +7,7 @@ import (
 	"github.com/shamaton/msgpack"
 
 	"github.com/stackus/edat/core"
-	"github.com/stackus/edat/core/registertypes"
+	"github.com/stackus/edat/core/register_types"
 )
 
 func init() {
